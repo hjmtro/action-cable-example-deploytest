@@ -23,3 +23,4 @@ And you're all set.
 
 
 # action-cable-example-deploytest
+拝借してデプロイテスト

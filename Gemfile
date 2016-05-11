@@ -24,7 +24,7 @@ gem 'redis', '~> 3.0'
 
 
 
-group :production do 
+group :production do
   gem 'rails_12factor'
 end
 
@@ -42,3 +42,13 @@ group :development do
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+
+# added for deploy
+gem 'capistrano'
+gem 'capistrano-rails'
+gem 'capistrano-rbenv'
+gem 'capistrano-bundler'
+gem 'capistrano3-unicorn'
+gem 'unicorn'
+gem 'rack'
