@@ -82,4 +82,4 @@ production:
   <<: *default
   database: chatty_production
   username: chatty
-  # password: <%= ENV['CHATTY_DATABASE_PASSWORD'] %>
+  password: vagrant # <%= ENV['CHATTY_DATABASE_PASSWORD'] %>
