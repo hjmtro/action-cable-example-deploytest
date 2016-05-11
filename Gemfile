@@ -5,7 +5,7 @@ source 'https://rubygems.org'
 ruby '2.3.0'
 gem 'rails', '>= 5.0.0.beta3', '< 5.1'
 # Use postgresql as the database for Active Record
-gem 'pg', '~> 0.18'
+gem 'pg', '~> 0.18.4'
 # Use Puma as the app server
 gem 'puma'
 # Use SCSS for stylesheets
@@ -52,4 +52,3 @@ gem 'capistrano-bundler'
 gem 'capistrano3-unicorn'
 gem 'unicorn'
 gem 'rack'
-gem 'pg', '~> 0.18.4'
